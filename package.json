@@ -1,6 +1,6 @@
 {
   "name": "distinct-stream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Keep a rolling log of inputs and drop duplicates seen within it",
   "main": "index.js",
   "scripts": {
