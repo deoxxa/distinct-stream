@@ -1,0 +1,32 @@
+{
+  "name": "distinct-stream",
+  "version": "0.0.0",
+  "description": "Keep a rolling log of inputs and drop duplicates seen within it",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/distinct-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "distinct",
+    "duplicate",
+    "unique",
+    "filter"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/deoxxa/distinct-stream/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.12.1"
+  },
+  "dependencies": {
+    "readable-stream": "git://github.com/deoxxa/readable-stream#fix-issue-66"
+  }
+}
